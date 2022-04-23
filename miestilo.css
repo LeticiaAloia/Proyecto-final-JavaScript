@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 18px;
+}
+
+@font-face {
+  font-family: "inlander";
+  src: url(../../inlander/Inlander\ Texture.ttf);
+}
+.subtitulo, .titulo {
+  font-family: "inlander";
+  color: whitesmoke;
+  background: url(../media/pizarra.webp);
+  text-align: center;
+  padding: auto;
+  margin-bottom: 3px;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
+}
+
+.pie, .pizarra-inicio {
+  color: whitesmoke;
+  background-color: rgba(29, 48, 1, 0.555);
+  width: 100%;
+  transition: all 1s;
+}
+.pie:hover, .pizarra-inicio:hover {
+  background-color: #002205ee;
+}
+
+.parrafo-marketing, .parrafo-bienvenida {
+  font-family: "Outfit", sans-serif;
+  color: whitesmoke;
+  font-size: 1rem;
+  background-color: rgba(29, 48, 1, 0.555);
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
+}
+
+.boton-venta, .boton {
+  color: whitesmoke;
+  font-size: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: "inlander";
+  background: rgba(29, 48, 1, 0.555);
+  border: 0.2px solid whitesmoke;
+  transition: background-color 1s;
+}
+.boton-venta:hover, .boton:hover {
+  color: #bee4be;
+  background-color: #002205ee;
+  border: none;
+}
+
+.pizarra-inicio {
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+  transition: 1s;
+}
+.logo:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+
+ul {
+  list-style: none;
+  font-size: 0;
+}
+ul li {
+  font-family: "inlander";
+  display: inline-block;
+  color: whitesmoke;
+  width: 8rem;
+  position: relative;
+  font-size: 1rem;
+}
+ul li ul {
+  position: absolute;
+  display: none;
+  background: url(../media/pizarra.webp);
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
+}
+ul li ul li {
+  display: block;
+}
+
+ul li:hover ul {
+  display: block;
+  color: whitesmoke;
+}
+
+.vinculo {
+  color: whitesmoke;
+  text-decoration: none;
+  transition: all 1s;
+}
+.vinculo:hover {
+  color: #bee4be;
+}
+
+.pie {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  padding-top: 1em;
+  margin-top: 2rem;
+  box-shadow: rgba(141, 138, 138, 0.5) 1px -10px 10px;
+  font-family: "Outfit", sans-serif;
+}
+
+.logos-redes {
+  width: 2em;
+  height: 2em;
+  transition: all 1s;
+}
+.logos-redes:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+
+.imagen-bienvenida {
+  background: url(../media/fondoinicio.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.parrafo-bienvenida {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.certificados {
+  color: whitesmoke;
+  background-color: rgba(29, 48, 1, 0.555);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  padding-left: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
+}
+
+.fondo-comercial {
+  background-image: url(../media/fondocomerciales.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.tarjeta {
+  width: 250px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(#f1db9d, #fcfbf9);
+  margin-top: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
+  border: 1px solid whitesmoke;
+}
+
+.foto-producto {
+  width: auto;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+}
+
+.tamanio-producto {
+  width: 12rem;
+  height: 26rem;
+}
+
+.fondo-producto {
+  background-image: linear-gradient(#f1db9d, #fcfbf9);
+}
+
+.pizarra-venta {
+  width: 12rem;
+  height: auto;
+  font-family: "inlander";
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(media/pizarra.webp);
+  color: whitesmoke;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.api {
+  /* width: 10rem; */
+  /* height: auto; */
+  font-family: "inlander";
+  font-size: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(29, 48, 1, 0.555);
+  /* margin: auto; */
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
+  color: whitesmoke;
+  /* padding-top: 0.2em; */
+  /* padding-bottom: 0.2em; */
+  
+}
+
+.fondo-lounge {
+  background: url(../media/fondolounge.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.foto-carrusel {
+  width: 32rem;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
+}
+
+.boton {
+  padding: 1em 1em;
+}
+
+.boton-venta {
+  width: 12em;
+  padding: 0.2rem 1rem;
+}
+
+.titulo {
+  font-size: 1.5em;
+}
+
+.subtitulo {
+  font-size: 0.8em;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+

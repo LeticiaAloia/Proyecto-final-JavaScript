@@ -1,0 +1,7 @@
+[   {"id": "1", "nombre": "`Nueces`", "precio": 590, "imagen": "`media/nuez.webp`"},
+    {"id": "2", "nombre": "`Almendras`", "precio": 230, "imagen": "`media/almendra.webp`"},
+    {"id": "3", "nombre": "`Nueces pecan`", "precio": 310, "imagen": "`media/pecan.webp`"},
+    {"id": "4", "nombre": "`Avellanas`", "precio": 280, "imagen": "`media/avellana.webp`"}
+]
+
+
